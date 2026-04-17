@@ -46,9 +46,12 @@ python main.py
 ## 📊 Results & Analysis
 1. Single Cycle SOC Estimation
 The algorithm provides a smooth RSOC (%) curve and maintains a flat FCC (Full Charge Capacity) near 1.85Ah, effectively solving the "tail-up" error seen in basic models.
+<img width="917" height="721" alt="SOC" src="https://github.com/user-attachments/assets/94ebefff-6184-4c43-aa94-a7bc7b093c92" />
+<br>
 
-2. Lifecycle Aging (SOH)
+3. Lifecycle Aging (SOH)
 Visualized the degradation of cell B0005, demonstrating how internal resistance surge leads to voltage collapse and shortened discharge duration.
+<img width="936" height="672" alt="SOH" src="https://github.com/user-attachments/assets/7ecc89c5-f3ec-464b-b1e4-e2d1ae4b3a74" />
 
 ## 📂 Data Source & Acknowledgement
 The simulation is driven by the NASA Ames Prognostics Data Repository.
